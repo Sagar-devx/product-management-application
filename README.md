@@ -1,4 +1,4 @@
-# Product CRUD App
+# Product Management Application
 
 A simple **Product Management Application** built using **Spring MVC**, **Hibernate**, and **JSP**. This app allows users to **view**, **add**, **update**, and **delete** products in a dynamic list.  
 
