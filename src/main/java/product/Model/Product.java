@@ -15,13 +15,11 @@ public class Product
 	private String description;
 	private long price;
 	
-	public Product()
-	{
+	public Product(){
 		super();
 	}
 
-	public Product(int id, String name, String description, long price) 
-	{
+	public Product(int id, String name, String description, long price) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -57,7 +55,4 @@ public class Product
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", description=" + description + ", price=" + price + "]";
 	}
-	
-	
-
 }
