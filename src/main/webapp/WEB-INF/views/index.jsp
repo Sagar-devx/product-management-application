@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
 <div class="container mt-3">
     <div class="row">
         <div class="col-md-12">
@@ -26,7 +25,6 @@
                         <th scope="col" class="text-center">Action</th>
                     </tr>
                 </thead>
-
                 <tbody>
                     <c:forEach items="${products}" var="p">
                         <tr>
@@ -42,22 +40,18 @@
 							        <i class="fas fa-trash fs-5"></i>
 							    </a>
 						  </td>
-
                         </tr>
                     </c:forEach>
                 </tbody>
             </table>
-
             <div class="text-center mt-4">
                 <a href="add-product" class="btn btn-success px-4 py-2 fs-5 shadow">
                     <i class="fa-solid fa-plus me-2"></i> Add New Product
                 </a>
             </div>
-
         </div>
     </div>
 </div>
-
 </body>
 </html>
 
